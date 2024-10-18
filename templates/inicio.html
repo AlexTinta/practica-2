@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- Imagen principal al inicio de la página -->
+    <section class="banner-principal">
+        <img src="{{ url_for('static', filename='img/banner-principal.jpg') }}" alt="Imagen principal" class="img-principal">
+    </section>
+
+    <section class="contenido-inicio">
+        <h1>Bienvenidos a nuestra empresa</h1>
+        <p>Ofrecemos los mejores servicios para ti.</p>
+        <p>Descubre más sobre nosotros navegando por el sitio.</p>
+    </section>
+{% endblock %}
